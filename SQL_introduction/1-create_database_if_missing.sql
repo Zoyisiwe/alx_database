@@ -15,7 +15,7 @@ try:
         password=password
     )
 
-    # Create a cursor object to interact with the server
+   """ # Create a cursor object to interact with the server
     cursor = connection.cursor()
 
     # Execute the SQL query to create the database if it doesn't exist
