@@ -3,9 +3,9 @@
 import mysql.connector
 
 # Replace these with your MySQL server credentials
-hostname = "localhost"
-username = "your_username"
-password = "your_password"
+#hostname = "localhost"
+#username = "your_username"
+#password = "your_password"
 
 try:
     # Connect to the MySQL server
