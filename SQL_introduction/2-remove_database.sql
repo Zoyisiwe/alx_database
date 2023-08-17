@@ -1,6 +1,6 @@
 -- a script that deletes the database hbtn_0c_0 in your MySQL server.
 
-import mysql.connector
+#import mysql.connector
 
 # Replace these with your MySQL server credentials
 #hostname = "localhost"
