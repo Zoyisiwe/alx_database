@@ -1,13 +1,15 @@
 -- a script that creates the database hbtn_0c_0 in your MySQL server.
 
-import mysql.connector
+CREATE DATABASE IF NOT EXISTS hbtn_0c_0
+
+/*import mysql.connector
 
 # Replace these with your MySQL server credentials
 hostname = "localhost"
 username = "your_username"
-password = "your_password"
+password = "your_password"*/
 
-try:
+/*try:
     # Connect to the MySQL server
     connection = mysql.connector.connect(
         host=hostname,
@@ -35,4 +37,4 @@ finally:
     if cursor:
         cursor.close()
     if connection.is_connected():
-        connection.close()
+        connection.close()*/
