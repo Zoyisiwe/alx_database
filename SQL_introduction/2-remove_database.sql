@@ -9,14 +9,14 @@ import mysql.connector
 
 try:
     # Connect to the MySQL server
-    connection = mysql.connector.connect(
+    #connection = mysql.connector.connect(
         host=hostname,
         user=username,
         password=password
     )
 
     # Create a cursor object to interact with the server
-    cursor = connection.cursor()
+    #cursor = connection.cursor()
 
     # Execute the SQL query to delete the database if it exists
     query = "DROP DATABASE IF EXISTS hbtn_0c_0"
