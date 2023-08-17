@@ -4,14 +4,14 @@ DROP DATABASE IF EXISTS hbtn_0c_0
 
 --#import mysql.connector
 
-# Replace these with your MySQL server credentials
-#hostname = "localhost"
-#username = "your_username"
-#password = "your_password"
+--# Replace these with your MySQL server credentials
+--#hostname = "localhost"
+--#username = "your_username"
+--#password = "your_password"
 
-#try:
-    # Connect to the MySQL server
-    #connection = mysql.connector.connect(
+--#try:
+    --# Connect to the MySQL server
+   /* #connection = mysql.connector.connect(
         host=hostname,
         user=username,
         password=password
@@ -37,4 +37,4 @@ DROP DATABASE IF EXISTS hbtn_0c_0
     if cursor:
         cursor.close()
     if connection.is_connected():
-        connection.close()
+        connection.close()*/
